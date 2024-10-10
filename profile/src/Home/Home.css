@@ -1,0 +1,67 @@
+.nav{
+    background-color: black;
+    color: white;
+padding: 5px;
+height: 20px;
+
+
+    /* position: absolute; */
+    
+}
+.text{
+    position: relative;
+    left: 40px;
+    font-size: x-small;
+}
+.left{
+    width: 100px;
+    height: 80px;
+    display: flex;
+   
+    background-color: rgb(2, 2, 95);
+    
+    
+}
+
+.right{
+    background-color: rgb(219, 219, 229);
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.main{
+    display: flex;
+   
+    background-color: rgb(225, 109, 109);
+}
+.profile{
+    /* display: flex;
+    flex-direction: column; */
+}
+.r-u{
+    display: flex;
+    
+}
+.john{
+    /* display: flex; */
+}
+.ul{
+   
+    list-style: none;
+    
+    
+
+}
+.li{
+    color: white;
+    list-style: none;
+    font-size: x-small;
+   
+
+    
+    
+}
+.link{
+    text-decoration: none;
+    
+}
