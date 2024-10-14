@@ -23,7 +23,7 @@ const Home = () => {
           <Outlet/>
          
             
-          
+        
         </div>
       </div>
     </div>

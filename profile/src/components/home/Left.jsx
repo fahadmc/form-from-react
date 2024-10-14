@@ -7,16 +7,16 @@ const Left = () => {
       <div className="left">
         <ul className="ul">
           <Link className="link"  to={"/Home"}>
-            <li className="li">Profile</li>
+            <li className="li1">Profile</li>
           </Link>
           <Link className="link" to={"/Home/message"}>
-            <li className="li">Message</li>
+            <li className="li2">Message</li>
           </Link>
           <Link className="link" to={"/Home/settings"}>
-            <li className="li">Settings</li>
+            <li className="li3">Settings</li>
           </Link>
           <Link className="link" to={"/Home/blog"}>
-            <li className="li">Blog</li>
+            <li className="li4">Blog</li>
           </Link>
         </ul>
       </div>

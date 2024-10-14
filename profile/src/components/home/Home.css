@@ -1,32 +1,40 @@
-/* .nav{
+.nav{
     background-color: black;
     color: white;
-padding: 5px;
+padding: 40px;
 height: 20px;
+position: relative;
 
-
-    /* position: absolute; */
     
-}
-.text{
-    position: relative;
-    left: 40px;
-    font-size: x-small;
+} 
+.text1{
+    
+  
+    font-size:30px;
+    
+    position: absolute;
+    top: 5px;
+   left: 90px;
+
 }
 .left{
-    width: 200px;
+    width: 400px;
     background-color: rgb(173, 150, 120);
     height: 100vh;
     display: flex;
    
-    background-color: rgb(2, 2, 95);
+    background-color:#172554;
     
+  
     
 }
 
 .right{
-    background-color: rgb(219, 219, 229);
+    background-color:#E5E7EB;
     display: flex;
+  
+    justify-content: center;
+
     width: 100vw;
     height: 100vh;
 }
@@ -35,17 +43,12 @@ height: 20px;
    
     background-color: rgb(225, 109, 109);
 }
-.profile{
-    /* display: flex;
-    flex-direction: column; */
-}
+
 .r-u{
     display: flex;
     
 }
-.john{
-    /* display: flex; */
-}
+
 .ul{
    
     list-style: none;
@@ -53,16 +56,102 @@ height: 20px;
     
 
 }
-.li{
+.li1{
     color: white;
     list-style: none;
-    font-size: x-small;
+    font-size: 35px;
+padding-bottom: 30px;
+padding-top: 50px;
+padding-left: 50px;
    
+ 
 
     
     
 }
+.li2{
+    color: white;
+    list-style: none;
+    font-size: 35px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+   
+}
+.li3{
+    color: white;
+    list-style: none;
+    font-size: 35px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+   
+}
+.li4{
+    color: white;
+    list-style: none;
+    font-size: 35px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+   
+}
 .link{
     text-decoration: none;
     
-} */
+} 
+
+.maindiv{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: relative;
+ 
+}
+.p-h{
+    font-weight:20px ;
+    font-size: 40px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.img{
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+.john{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+
+}
+h1{
+    position: absolute;
+    left: 20px;
+    top: 230px;
+}
+.p1{
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+}
+.p2{
+
+}
+.btn{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3A80F2;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+
+}
