@@ -1,7 +1,7 @@
 
 
 import "./Home.css";
-import Left from "../Home/Left"
+import Left from "../home/Left"
 import Nave from '../Home/Nave'
 
 // import Left from "../Home/";/

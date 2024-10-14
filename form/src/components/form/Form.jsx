@@ -99,7 +99,7 @@ const validate=(value)=>{
               placeholder="First Name:"
               
             />
-            {formErrors.fname&&<p style={{color:"red",fontSize:"12px"}}>{formErrors.fname}</p>}
+            {formErrors.fname&&<p style={{color:"red",fontSize:"12px",display:"flex",flexDirection:"column",alignItems:"center"}}>{formErrors.fname}</p>}
           </div>
           <div className="divc">
             <label className="lab2" htmlFor="lname">Last Name:</label>
@@ -112,7 +112,7 @@ const validate=(value)=>{
               placeholder="Last Name:"
               
             />
-             {formErrors.lname&&<p style={{color:"red",fontSize:"12px"}}>{formErrors.lname}</p>}
+             {formErrors.lname&&<p style={{color:"red",fontSize:"12px",display:"flex",flexDirection:"column",alignItems:"center"}}>{formErrors.lname}</p>}
           </div>
 
           <div className="divc">
@@ -125,7 +125,7 @@ const validate=(value)=>{
               name="address"
               placeholder=" Address"
               />
-              {formErrors.number&&<p style={{color:"red",fontSize:"12px"}}>{formErrors.number}</p>}
+              {formErrors.number&&<p style={{color:"red",fontSize:"12px",display:"flex",flexDirection:"column",alignItems:"center"}}>{formErrors.number}</p>}
            
           </div>
 
@@ -149,7 +149,7 @@ const validate=(value)=>{
               placeholder="E-mail"
               
             />
-             {formErrors.email&&<p style={{color:"red",fontSize:"12px"}}>{formErrors.email}</p>}
+             {formErrors.email&&<p style={{color:"red",fontSize:"12px",display:"flex",flexDirection:"column",alignItems:"center"}}>{formErrors.email}</p>}
 
           </div>
           <div className="divc">
@@ -162,14 +162,14 @@ const validate=(value)=>{
               name="number"
               placeholder="Phone Number"
               />
-              {formErrors.number&&<p style={{color:"red",fontSize:"12px"}}>{formErrors.number}</p>}
+              {formErrors.number&&<p style={{color:"red",fontSize:"12px",display:"flex",flexDirection:"column",alignItems:"center"}}>{formErrors.number}</p>}
            
           </div>
 
 
         </div>
 
-        <input type="submit" value="Submit" />
+        <input className="submit" type="submit" value="Submit" />
       
       </form>
       {message && <p className="success-message">{message}</p>}

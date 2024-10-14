@@ -1,0 +1,163 @@
+.ul1{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+    width: 800px;
+   background-color: white;
+   font-size: 20PX;
+
+
+}
+.li5:hover{
+    background-color: rgb(7, 173, 7);
+    color: white;
+    
+}
+.img1{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.parent{
+    
+    background-color: black;
+    width: 99vw;
+    overflow: hidden;
+    margin: 0%;
+    
+    
+}
+.div1{
+    background-color: rgb(186, 33, 33);
+}
+.img2{
+    height: 15px;
+    width: 15px;
+}
+.searchdiv{
+    /* background-color: rgb(225, 62, 62); */
+    
+}
+.ul2{
+  
+    list-style: none;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    width: 800px;
+    font-size: medium;
+    background-color:white;
+ 
+
+
+}
+.parent1{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    margin: none;
+
+}
+.div2{
+    /* background-color: red; */
+}
+.ul3{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color:black;
+    padding: 10px;
+    color: white;
+}
+.imgspace{
+    width: 15px;
+    height: 15px;
+  
+}
+.li1{
+    font-size:20px;
+   width: 100px;
+}
+.li2{
+    font-size:20px;
+}
+.li3{
+    font-size:20px;
+}
+.li4{
+    font-size:20px;
+}
+.li1:hover{
+    background-color: rgb(241, 235, 235);
+    border-radius: 50px;
+    width: 100px;
+}
+.li2:hover{
+    background-color: rgb(241, 235, 235);
+    border-radius: 50px;
+    
+}
+.li3:hover{
+    background-color: rgb(241, 235, 235);
+    border-radius: 50px;
+    
+
+}
+.li4:hover{
+    background-color: rgb(241, 235, 235);
+    border-radius: 50px;
+}
+.divbtn{
+    
+    width: 150px;
+    height: 50px;
+    background-color: gray;
+    position: relative;
+
+
+}
+.btn1{
+    height: 50px;
+   
+  border-radius: 20px;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 20px;
+    border:none;
+    position: absolute;
+    right: 25px;
+  
+background-color: rgb(15, 211, 15);
+color: white;
+}
+.btn1:hover{
+    background-color: rgb(25, 125, 25);
+}
+.btn2:hover{
+    background-color: rgb(25, 125, 25);
+}
+.btn2{
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: none;
+   background-color: rgb(196, 243, 196);
+    border:none;
+    position: absolute;
+    /* left: 15px; */
+}
+
+.img2{
+   
+}
+.search{
+    padding: 10px;
+    border-radius: 30px;
+   border-style: solid;
+   border-color: gray;
+}

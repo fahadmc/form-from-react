@@ -1,5 +1,5 @@
 
-import { Form } from 'react-router-dom'
+import  Form  from './components/form/Form'
 import './App.css'
 // import { Form } from 'react-router-dom'
 
