@@ -1,0 +1,152 @@
+.main-div{
+    margin: 0;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin-left: 500px;
+    top: 40px;
+    border-radius: 20px;
+}
+.h1-txt{
+  
+    color: #8A7272;
+   
+    left: 150px;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+  
+
+}
+.h1-txt2{
+    color: #F6D4BB;
+   
+    left: 240px;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+ 
+}
+.div1{
+    display: flex;
+    
+
+}
+.div2{
+    display: flex;
+    gap: 10px;
+}
+.inpt-btn-div{
+   
+    width: 610px;
+    height: 50px;
+   
+   
+}
+.task-inpt{
+  padding: 10px;
+  width: 400px;
+  border-style: none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  outline: none;
+  background-color: #FFF9C4;
+  padding-top: 17px;
+ 
+}
+#add{
+    border-style: none;
+   border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 10px;
+    width: 190px;
+    padding-right: 100px;
+    padding-left: 20px;
+    color: white;
+    background-color: green;
+}
+.edbtn{
+    background: blue;
+    color: white;
+    width: 100px;
+    border-radius:10px;
+   border-style: none;
+   padding: 7px;
+
+  
+}
+.dlbtn{
+    color: #DEE0E1;
+    background-color:#E4002B;
+   border-style: none;
+   border-radius: 10px;
+    width: 100px;
+    padding: 7px;
+    
+}
+.li{
+    background-color:lightskyblue;
+    color:darkblue ;
+    list-style: none;
+    margin-right: 70px;
+    padding: 7px;
+    border-radius: 10px;
+    
+}
+
+.todiv{
+display: flex;
+
+margin: 10px;
+
+}
+.todos{
+   
+    overflow-y:auto;
+}
+.lidiv{
+    width: 400px;
+
+}
+.img1{
+width: 30px;
+height: 20px;
+}
+.img2{
+    width: 30px;
+    height: 20px;
+}
+.img3{
+    width: 30px;
+    height: 20px;
+}
+.svimg{
+    width: 60px;
+    height: 25px;
+}
+.divsvin{
+    background-color: gray;
+    display: flex;
+}
+.svbtn{
+
+    /* width: 180px;
+    color: white;
+    background-color:#2485b6;
+    border-radius: 10px;
+    border-style: none;
+    padding: 5px;
+    margin-left: 20px; */
+}
+.editinpt{
+    /* width: 400px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: gray;
+    color: white;
+    padding: 7px; */
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
